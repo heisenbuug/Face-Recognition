@@ -1,6 +1,6 @@
 # Face-Recognition
 
-This project is made to recognise front-view face, eyes and smile. 
+This project is made to recognize front-view face, eyes and smile. 
 
 ### Introduction
 
