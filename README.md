@@ -29,16 +29,16 @@ Detection”, International Journal of Computer Vision
 
 Check Source Folder for the original paper 
 
-###### Three main steps in appling this algorithm are:
+#### Three main steps in appling this algorithm are:
 * Haar like features
 * Integral Image
 * Adaptive Bosting
 
-###### Haar like features
+##### Haar like features
 Haar-like features are digital image features used in object recognition. They owe their name to their intuitive similarity with Haar wavelets and were used in the first real-time face detector. Here I have used rectangular features.
 
-###### Integral Image
+##### Integral Image
 The integral image at location x , y contains the sum of the pixels above and to the left of x , y. The integral image allows integrals for the Haar extractors to be calculated by adding only four numbers.
 
-###### AdaBoost
+##### AdaBoost
 The training process uses AdaBoost to select a subset of features and construct the classifier. A large set of images, with size corresponding to the size of the detection window, is prepared. This set must contain positive examples for the desired filter (e.g. only front view of faces), and negative examples (nonfaces). Each image has index l, l = 1…L. For each image, a corresponding value yl, is established. yl=1 for faces and yl=0 for nonfaces.
